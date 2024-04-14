@@ -10,7 +10,9 @@
 
 - 🌱 I’m currently learning **ReactJs**, **Figma**, and **Flutter**
 
-- 📫 How to reach me **mughalmunir6224@gmail.com**
+- 📫 How to reach me **<a href="mailto:mughalmunir6224@gmail.com">  
+    <img src="https://img.shields.io/badge/'Gmail-333333?style=for-the-badge\&logo=gmail\&logoColor=red" target="_blank" /> 
+</a>**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
