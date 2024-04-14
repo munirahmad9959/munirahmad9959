@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Munir Ahmad</h1>
 <h3 align="center">I'm deeply enthusiastic about crafting immersive web experiences and architecting practical tools. Proficient in HTML, CSS, JavaScript, Tailwind CSS, and WordPress, I thrive on transforming concepts into engaging, visually stunning solutions.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=munirahmad9959&label=Profile%20views&color=0e75b6&style=flat" alt="munirahmad9959" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=munirahmad9959" alt="munirahmad9959" /></a> </p>
-
 - 🔭 I’m currently working on **My Startup Ventures**
 
 - 🌱 I’m currently learning **ReactJs**
