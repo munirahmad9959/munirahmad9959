@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **My Startup Ventures**
 
-- 🌱 I’m currently learning **ReactJs**
+- 🌱 I’m currently learning **ReactJs**, **Figma**, and **Flutter**
 
 - 📫 How to reach me **mughalmunir6224@gmail.com**
 
