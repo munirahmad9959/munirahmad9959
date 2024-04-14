@@ -1,3 +1,19 @@
+<style>
+    body {
+        background-color: black; /* Set the background color of the entire page to black */
+        color: white; /* Set the text color to white */
+    }
+
+    .bg-white {
+        background-color: black !important; /* Override the white background color */
+    }
+
+    /* Additional styles for specific elements */
+    .github-stats {
+        background-color: black !important; /* Override the white background color for GitHub stats */
+    }
+</style>
+
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=munirahmad9959.munirahmad9959" />
 <h1 align="center">
     <a href="https://git.io/typing-svg">
