@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently working on **My Startup Ventures**
 
-- 🌱 I’m currently learning **ReactJs**, **Figma**, and **Flutter**
+- 🌱 I’m currently learning **.NET Development(Desktop and Web)**, and **Flutter**
 
 - 📫 How to reach me <a href="mailto:mughalmunir6224@gmail.com" style="display: inline-flex; align-items: center;">  
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" target="_blank" /> 
