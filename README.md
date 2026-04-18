@@ -1,3 +1,7 @@
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=munirahmad9959&label=Profile%20views&color=0e75b6&style=flat" alt="munirahmad9959" />
+</p>
+
 <h1 align="center">Munir Ahmad</h1>
 
 <p align="center">
@@ -119,9 +123,5 @@ Referral tracking, automated commission calculations, hierarchical distributor m
 - **Writing Secure Code in ASP.NET** — Packt
 
 ---
-
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=munirahmad9959&label=Profile%20views&color=0e75b6&style=flat" alt="munirahmad9959" />
-</p>
 
 *UET Lahore · ACM-CODEK 2023 · Lahore, Punjab, Pakistan*
