@@ -50,9 +50,9 @@
 ### [Advance Alloy Wheel Repairs](https://advancedalloys.com.au) &nbsp;`live`
 > Unified business management platform built from scratch for a high-profile Australian automotive client — replacing WorkflowMax, HubSpot CRM and Asana in a single system.
 
-Full DevOps ownership: Django backend with Celery task orchestration, React frontend with short polling, AWS S3 + EC2, Nginx, and GitHub Actions CI/CD.
+Full DevOps ownership: Django backend with Celery task orchestration, React frontend with short polling, AWS S3 + EC2, Nginx, and GitHub Actions CI/CD. Integrated Xero financial APIs for end-to-end invoicing lifecycle management and implemented Xero Webhook listeners to consume real-time financial events — enabling immediate reconciliation of accounting state changes with zero polling overhead.
 
-`Django` `DRF` `React.js` `PostgreSQL` `Redis` `Celery` `AWS S3` `EC2` `Nginx` `GitHub Actions`
+`Django` `DRF` `React.js` `PostgreSQL` `Redis` `Celery` `AWS S3` `EC2` `Nginx` `GitHub Actions` `Xero API` `Webhooks`
 
 ---
 
