@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  <a href="https://munirahmad9959.vercel.app/Munir_Ahmad_CV.pdf">
+  <a href="https://munirahmad9959.vercel.app/assets/Munir_Ahmad_CV-DkROaOa0.pdf">
     <img src="https://img.shields.io/badge/Download%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
   </a>
 </p>
