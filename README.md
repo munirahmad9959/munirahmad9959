@@ -12,7 +12,7 @@
 ## Featured Work
 
 ### QueMoncho — Multi-Role Food Delivery & Restaurant Management Platform &nbsp;`in development`
-> Customer ordering, restaurant operations, and rider dispatch in one cross-platform app, plus a full operations admin panel — built for the Costa Rican market. Staging: [sandbox.quemonchamos.com](https://sandbox.quemonchamos.com)
+> Customer ordering, restaurant operations, and rider dispatch in one cross-platform app, plus a full operations admin panel — built for the Costa Rican market. Production: [quemonchamos.com](https://quemonchamos.com)
 
 Re-architected an inherited prototype into a production-grade platform: a 40+ table relational schema and a Laravel 11 REST API (130+ endpoints) behind a single Flutter app serving the customer, restaurant, and rider experiences. Rebuilt the real-time layer on Laravel Reverb WebSockets for order and status events and on Firebase for live rider-location tracking, replacing a polling-based Firestore design. Integrated PowerTranz SPI-3DS-HPP card payments across iOS and Android — full 3-D Secure, per-restaurant merchant credentials — with void/refund/capture reconciliation that prevents orphaned charges. Automated restaurant subscription billing via PayPal recurring payments — trial periods, signature-verified webhooks, lifecycle status sync. Engineered a configurable delivery-fee engine (flat, per-km, base-plus-per-km, tiered) with geospatial distance calculation, a live USD/CRC exchange-rate sync engine, and full English/Spanish localization. Delivered a 36-resource Filament admin panel and an automated GitHub Actions → TestFlight iOS release pipeline with code signing.
 
