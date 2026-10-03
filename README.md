@@ -1,10 +1,11 @@
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=munirahmad9959&label=Profile%20views&color=0e75b6&style=flat" alt="munirahmad9959" /> </p> <h1 align="center">Munir Ahmad</h1> <p align="center"> <b>Software Engineer · Lahore, Pakistan</b><br/> <i>I build production platforms end-to-end — from database schemas and REST APIs to real-time services and cross-platform mobile apps.</i> </p> <p align="center"> Currently taking <b>QueMoncho</b> — a multi-role food-delivery platform (customer, restaurant and rider apps, plus an operations admin panel) — from an inherited prototype to launch. Previously built a unified business-management system that replaced WorkflowMax, HubSpot CRM and Asana for an Australian automotive company, migrating 70,000+ jobs and invoices without data loss. I work across Laravel, Django, React.js and Flutter, with a focus on clean system design, third-party payment integrations, and reliable CI/CD. </p> <p align="center"> <a href="https://linkedin.com/in/munirahmad9959"> <img src="https://img.shields.io/badge/LinkedIn-munirahmad9959-0A66C2?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://medium.com/@munirahmad9959"> <img src="https://img.shields.io/badge/Medium-munirahmad9959-000000?style=flat&logo=medium&logoColor=white" /> </a> <a href="https://stackoverflow.com/users/23152021/munir-ahmad"> <img src="https://img.shields.io/badge/Stack_Overflow-munir--ahmad-F58025?style=flat&logo=stackoverflow&logoColor=white" /> </a> <a href="https://leetcode.com/munirahmad/"> <img src="https://img.shields.io/badge/LeetCode-munirahmad-FFA116?style=flat&logo=leetcode&logoColor=white" /> </a> <a href="https://codepen.io/mughal-munir-ahmad"> <img src="https://img.shields.io/badge/CodePen-mughal--munir--ahmad-000000?style=flat&logo=codepen&logoColor=white" /> </a> <a href="https://www.hackerrank.com/profile/mughalmunir6224"> <img src="https://img.shields.io/badge/HackerRank-mughalmunir6224-2EC866?style=flat&logo=hackerrank&logoColor=white" /> </a> </p> <p align="center"> <a href="https://munirahmad9959.vercel.app/Munir_Ahmad_CV.pdf"> <img src="https://img.shields.io/badge/Download%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /> </a> </p>
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=munirahmad9959&label=Profile%20views&color=0e75b6&style=flat" alt="munirahmad9959" /> </p> <h1 align="center">Munir Ahmad</h1> <p align="center"> <b>Software Engineer · Lahore, Pakistan</b><br/> <i>I build production platforms end-to-end — from database schemas and REST APIs to real-time services and cross-platform mobile apps.</i> </p> <p align="center"> Shipped <b>QueMoncho</b> — a multi-role food-delivery platform (customer, restaurant and rider apps, plus an operations admin panel) — now live at <a href="https://quemonchamos.com">quemonchamos.com</a>, and before it a unified business-management system that replaced WorkflowMax, HubSpot CRM and Asana for an Australian automotive company, migrating 70,000+ jobs and invoices without data loss. I work across Laravel, Django, React.js and Flutter, with a focus on clean system design, third-party payment integrations, and reliable CI/CD. </p> <p align="center"> <a href="https://linkedin.com/in/munirahmad9959"> <img src="https://img.shields.io/badge/LinkedIn-munirahmad9959-0A66C2?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://medium.com/@munirahmad9959"> <img src="https://img.shields.io/badge/Medium-munirahmad9959-000000?style=flat&logo=medium&logoColor=white" /> </a> <a href="https://dev.to/munirahmad9959"> <img src="https://img.shields.io/badge/dev.to-munirahmad9959-0A0A0A?style=flat&logo=devdotto&logoColor=white" /> </a> <a href="https://stackoverflow.com/users/23152021/munir-ahmad"> <img src="https://img.shields.io/badge/Stack_Overflow-munir--ahmad-F58025?style=flat&logo=stackoverflow&logoColor=white" /> </a> <a href="https://leetcode.com/munirahmad/"> <img src="https://img.shields.io/badge/LeetCode-munirahmad-FFA116?style=flat&logo=leetcode&logoColor=white" /> </a> <a href="https://codepen.io/mughal-munir-ahmad"> <img src="https://img.shields.io/badge/CodePen-mughal--munir--ahmad-000000?style=flat&logo=codepen&logoColor=white" /> </a> <a href="https://www.hackerrank.com/profile/mughalmunir6224"> <img src="https://img.shields.io/badge/HackerRank-mughalmunir6224-2EC866?style=flat&logo=hackerrank&logoColor=white" /> </a> </p> <p align="center"> <a href="https://munirahmad9959.vercel.app/Munir_Ahmad_CV.pdf"> <img src="https://img.shields.io/badge/Download%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /> </a> </p>
 
 ---
 
 ## Currently
 
 - 🟢 **Software Engineer** at Innovaxel Private Limited — Sep 2026 – Present
+- 🔨 Designing Necesito Un — a bilingual skilled-pro marketplace.
 - 🎓 **BS Computer Science**, University of Engineering and Technology, Lahore — 2026
 
 ---
@@ -29,10 +30,19 @@ Built and scaled the platform into the company's day-to-day system of record. Ar
 
 ---
 
+### AI-Powered Personalized Comic Book Platform &nbsp;
+> Turns customer photos into a personalized, illustrated comic book — built for a German publishing house ([brainbook-verlag.de](https://brainbook-verlag.de)).
+
+Built a multimodal AI pipeline on Google's Gemini image-generation model that transforms customer photos into stylized characters and composes an 11-page personalized comic book (cover plus 10 continuity-aware scenes) per session. Designed a context-chaining generation strategy that anchors every request on approved character references and passes each scene into the next, preserving character identity and framing across a 10-scene narrative. Built an order-handoff pipeline that assembles the artwork into an A3 PDF with jsPDF, stores it in Firebase Storage, sends an EmailJS notification, and redirects the customer into the publisher's checkout.
+
+`React` `TypeScript` `Vite` `Gemini API` `Firebase Storage` `jsPDF` `EmailJS`
+
+---
+
 ### Recruita — HR & Recruitment Platform &nbsp;`Final Year Project`
 > Employee-management platform with ML-powered CV ranking and candidate shortlisting.
 
-Automated leave, attendance, and payroll workflows and organisational-hierarchy modelling, cutting manual HR processing overhead. Integrated ML models for candidate CV ranking against job descriptions to automate first-stage screening, and built an in-app AI assistant for natural-language HR and candidate queries across the recruitment workflow.
+Automated leave, attendance, and payroll workflows and organizational-hierarchy modelling, cutting manual HR processing overhead. Integrated ML models for candidate CV ranking against job descriptions to automate first-stage screening, and built an in-app AI assistant for natural-language HR and candidate queries across the recruitment workflow.
 
 `Django` `Next.js` `Python` `Machine Learning`
 
@@ -47,15 +57,16 @@ Built a storefront integrated with MLM logic supporting hierarchical distributor
 
 ---
 
-## Writing on Medium
+## Writing
 
-> Practical engineering articles from real-world experience.
+> Practical engineering guides from real projects, on [Medium](https://medium.com/@munirahmad9959) and [dev.to](https://dev.to/munirahmad9959).
 
-| Article | Views | Reads |
-|---|---|---|
-| [Install the Latest PostgreSQL (psql 18) on Ubuntu 24.04](https://medium.com/@munirahmad9959/install-the-latest-postgresql-psql-18-on-ubuntu-24-04-noble-73ffb81e4dc2) | 183 | 82 |
-| [Secure Swagger & ReDoc in Django REST Framework with DRF Spectacular](https://medium.com/@munirahmad9959/secure-swagger-redoc-in-django-rest-framework-with-drf-spectacular-best-practices-for-api-36da19824f9d) | 88 | 38 |
-| [Use Multiple GitHub Accounts on One Machine (SSH)](https://medium.com/@munirahmad9959/how-to-manage-multiple-github-accounts-on-one-machine-using-ssh-keys-3a8db5ae27e7) | 6 | 1 |
+| Article | Published |
+|---|---|
+| [Fastlane for Flutter: Complete Local Setup for iOS and Android Deployments](https://medium.com/@munirahmad9959/flutter-fastlane-local-setup-ios-android-ef38b9d3a87d) | Sep 2026 |
+| [Use Multiple GitHub Accounts on One Machine (SSH)](https://medium.com/@munirahmad9959/how-to-manage-multiple-github-accounts-on-one-machine-using-ssh-keys-3a8db5ae27e7) | Dec 2025 |
+| [Secure Swagger & ReDoc in Django REST Framework with DRF Spectacular](https://medium.com/@munirahmad9959/secure-swagger-redoc-in-django-rest-framework-with-drf-spectacular-best-practices-for-api-36da19824f9d) | Dec 2025 |
+| [Install the Latest PostgreSQL (psql 18) on Ubuntu 24.04](https://medium.com/@munirahmad9959/install-the-latest-postgresql-psql-18-on-ubuntu-24-04-noble-73ffb81e4dc2) | Nov 2025 |
 
 ---
 
