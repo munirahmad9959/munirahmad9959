@@ -65,6 +65,7 @@ Built a storefront integrated with MLM logic supporting hierarchical distributor
 
 | Article | Published |
 |---|---|
+| [Fix Microsoft 365 SMTP 535 5.7.3: Send Laravel Email with Microsoft Graph and Restrict It to One Mailbox](https://medium.com/@munirahmad9959/microsoft-365-smtp-535-5-7-3-microsoft-graph-3b3dc62001b5) | Oct 2026|
 | [Fastlane for Flutter: Complete Local Setup for iOS and Android Deployments](https://medium.com/@munirahmad9959/flutter-fastlane-local-setup-ios-android-ef38b9d3a87d) | Sep 2026 |
 | [Use Multiple GitHub Accounts on One Machine (SSH)](https://medium.com/@munirahmad9959/how-to-manage-multiple-github-accounts-on-one-machine-using-ssh-keys-3a8db5ae27e7) | Dec 2025 |
 | [Secure Swagger & ReDoc in Django REST Framework with DRF Spectacular](https://medium.com/@munirahmad9959/secure-swagger-redoc-in-django-rest-framework-with-drf-spectacular-best-practices-for-api-36da19824f9d) | Dec 2025 |
