@@ -1,83 +1,71 @@
-<h1 align="center">Munir Ahmad</h1> <p align="center"> <b>Software Engineer · Lahore, Pakistan</b><br/> <i>I build production platforms end-to-end — from database schemas and REST APIs to real-time services and cross-platform mobile apps.</i> </p> <p align="center"> Shipped <b>QueMoncho</b> — a multi-role food-delivery platform (customer, restaurant and rider apps, plus an operations admin panel) — now live at <a href="https://quemonchamos.com">quemonchamos.com</a>, and before it a unified business-management system that replaced WorkflowMax, HubSpot CRM and Asana for an Australian automotive company, migrating 70,000+ jobs and invoices without data loss. I work across Laravel, Django, React.js and Flutter, with a focus on clean system design, third-party payment integrations, and reliable CI/CD. </p> <p align="center"> <a href="https://linkedin.com/in/munirahmad9959"> <img src="https://img.shields.io/badge/LinkedIn-munirahmad9959-0A66C2?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://medium.com/@munirahmad9959"> <img src="https://img.shields.io/badge/Medium-munirahmad9959-000000?style=flat&logo=medium&logoColor=white" /> </a> <a href="https://dev.to/munirahmad9959"> <img src="https://img.shields.io/badge/dev.to-munirahmad9959-0A0A0A?style=flat&logo=devdotto&logoColor=white" /> </a> </p>
+<h1 align="center">Munir Ahmad</h1>
 
+<p align="center">
+  <b>Software Engineer · Lahore, Pakistan</b><br/>
+</p>
+
+<p align="center">
+  <a href="https://munirahmad9959.vercel.app">portfolio</a> ·
+  <a href="https://munirahmad9959.vercel.app/Munir_Ahmad_CV.pdf">resume</a> ·
+  <a href="https://linkedin.com/in/munirahmad9959">linkedin</a> ·
+  <a href="https://medium.com/@munirahmad9959">medium</a> ·
+  <a href="https://dev.to/munirahmad9959">dev.to</a>
+</p>
+
+Software engineer shipping production systems across Laravel, Django, React and Flutter. Four live products for clients in Costa Rica, Australia and Germany — food delivery, business operations, e-commerce and AI-generated comics — plus open-source work on AI-agent security and identity-document OCR. I care most about clean system design, payment integrations and reliable CI/CD.
 
 ---
 
 ## Currently
 
-- 🟢 **Software Engineer** at Innovaxel Private Limited – Present
-- 🔨 Designing the backend for **Necesito Un**, a bilingual (EN/ES) skilled-professional marketplace — Laravel 11, PostgreSQL/PostGIS and Filament, built schema-first. Next: Reverb-powered in-app chat and FCM push for iOS and Android.
-- 🎓 **BS Computer Science**, University of Engineering and Technology, Lahore
+- 🟢 **Software Engineer** at Innovaxel Private Limited
+- 🔨 Building the backend for **Necesito Un**, a bilingual (EN/ES) skilled-professional marketplace — Laravel 11, PostgreSQL/PostGIS, Filament. Next: Reverb in-app chat and FCM push.
+- 🤝 Working on [`--staged` mode](https://github.com/DhanushNehru/agentcheck/issues/8) for **agentcheck** (pre-commit scanning)
 
 ---
 
-## Featured Work
+## Open Source
 
-### QueMoncho — Multi-Role Food Delivery & Restaurant Management Platform &nbsp;`live`
-> Customer ordering, restaurant operations, and rider dispatch in one cross-platform app, plus a full operations admin panel — built for the Costa Rican market. Production: [quemonchamos.com](https://quemonchamos.com)
+**[id-atlas](https://github.com/munirahmad9959/id-atlas)** — Self-hosted, local-first OCR for identity documents. Upload front and back photos, get one structured result with per-field confidence and reasons a human should double-check. Reads MRZ with check-digit verification and PDF417 barcodes; Costa Rican documents today, other countries are one small module away. Apache-2.0.
+`Python` `FastAPI` `OCR` `ONNX` `uv`
 
-Re-architected an inherited prototype into a production-grade platform: a 40+ table relational schema and a Laravel 11 REST API (130+ endpoints) behind a single Flutter app serving the customer, restaurant, and rider experiences. Rebuilt the real-time layer on Laravel Reverb WebSockets for order and status events and on Firebase for live rider-location tracking, replacing a polling-based Firestore design. Integrated PowerTranz SPI-3DS-HPP card payments across iOS and Android — full 3-D Secure, per-restaurant merchant credentials — with void/refund/capture reconciliation that prevents orphaned charges. Automated restaurant subscription billing via PayPal recurring payments — trial periods, signature-verified webhooks, lifecycle status sync. Engineered a configurable delivery-fee engine (flat, per-km, base-plus-per-km, tiered) with geospatial distance calculation, a live USD/CRC exchange-rate sync engine, and full English/Spanish localization. Delivered a 36-resource Filament admin panel and an automated GitHub Actions → TestFlight iOS release pipeline with code signing.
-
-`Flutter` `Laravel 11` `PostgreSQL` `Laravel Reverb` `Firebase` `PowerTranz SPI-3DS` `PayPal Billing` `Redis` `Filament` `GitHub Actions`
-
----
-
-### Advance Alloy Wheel Repairs — Business Management Platform &nbsp;`live`
-> Unified business-management platform for a high-volume Australian automotive company — one system replacing WorkflowMax, HubSpot CRM and Asana. Production: [advancedalloys.com.au](https://advancedalloys.com.au)
-
-Built and scaled the platform into the company's day-to-day system of record. Architected a Django/PostgreSQL backend with Redis-backed Celery workers and a cron job scheduler powering automated data-sync pipelines, recurring invoicing, and high-volume third-party reconciliation, paired with a responsive React.js frontend for data-heavy financial and operational modules. Led the cutover from WorkflowMax — migrating 34,000+ jobs, 37,000+ invoices, and a 4,400+ customer base without data loss — then cut manual invoicing effort by ~80% by automating the full invoice lifecycle against the Xero API (tax-rate handling, multi-layer customer matching) with webhook listeners for real-time reconciliation. Owned the full DevOps pipeline — AWS S3, Nginx, isolated EC2 staging/production environments, and GitHub Actions CI/CD for zero-downtime deployments.
-
-`Django` `DRF` `React.js` `PostgreSQL` `Redis` `Celery` `Cron Jobs` `AWS S3` `EC2` `Nginx` `GitHub Actions` `Xero API` `Webhooks`
+**[agentcheck](https://github.com/DhanushNehru/agentcheck)** — Contributor. Scanner that finds hidden prompt-injection attacks in AI coding-agent config files (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules`, MCP configs).
+Merged: [#12 `--diff <ref>`](https://github.com/DhanushNehru/agentcheck/pull/12) scans only changed agent config files · In progress: [#8 `--staged`](https://github.com/DhanushNehru/agentcheck/issues/8)
+`Node.js` `CLI` `Security`
 
 ---
 
-### Uniball — Custom WooCommerce Brand & Product Catalog Platform &nbsp;`live`
-> Bespoke e-commerce and catalog website for a pen and stationery brand — custom WordPress/WooCommerce engineering rather than an off-the-shelf theme. Production: [uniball.com.au](https://uniball.com.au)
+## Production Work
 
-Engineered a branded storefront on a Woostify child theme with 9 custom page templates, a bespoke design system, and fully responsive layouts. Designed a hierarchical Product Codes plugin (custom post type, parent-child relations, tip-size metadata) linked to products, so pen and refill compatibility is managed in the admin and surfaced on each product page. Built a color-driven variation experience with hex swatches on attribute terms and AJAX gallery switching, alongside a custom product page with thumbnail carousel and swipe/zoom lightbox. Developed 3 reusable Elementor widgets (filter, category grid, sort), a debounced AJAX live search across title, content and SKU, client-side filtering and pagination with category carousels on the shop archive, and a nonce-verified AJAX contact flow with server-side validation and attachment handling.
+> Full case studies on my [portfolio](https://munirahmad9959.vercel.app).
 
-`WordPress` `WooCommerce` `PHP` `MySQL` `Elementor` `JavaScript` `jQuery` `AJAX`
+**[QueMoncho](https://quemonchamos.com)** — Multi-role food-delivery platform for Costa Rica: customer, restaurant and rider apps in one Flutter codebase, plus an operations admin panel. Laravel 11 API (130+ endpoints), Reverb real-time tracking, 3-D Secure card payments, PayPal subscription billing.
+`Flutter` `Laravel 11` `PostgreSQL` `Reverb` `Firebase` `Filament`
 
----
+**[Advance Alloy Wheel Repairs](https://advancedalloys.com.au)** — Business-management platform for an Australian automotive company, replacing WorkflowMax, HubSpot CRM and Asana. Migrated 70,000+ jobs and invoices without data loss and cut manual invoicing ~80% via Xero automation.
+`Django` `React` `PostgreSQL` `Celery` `AWS` `Xero API`
 
-### AI-Powered Personalized Comic Book Platform &nbsp;`client project`
-> Turns customer photos into a personalized, illustrated comic book — built for a German publishing house ([brainbook-verlag.de](https://brainbook-verlag.de)).
+**[Uniball](https://uniball.com.au)** — Custom WooCommerce catalog and brand site for a pen and stationery brand: hierarchical product-codes plugin, color-swatch variations with AJAX galleries, custom Elementor widgets and live search.
+`WordPress` `WooCommerce` `PHP` `Elementor` `AJAX`
 
-Built a multimodal AI pipeline on Google's Gemini image-generation model that transforms customer photos into stylized characters and composes an 11-page personalized comic book (cover plus 10 continuity-aware scenes) per session. Designed a context-chaining generation strategy that anchors every request on approved character references and passes each scene into the next, preserving character identity and framing across a 10-scene narrative. Built an order-handoff pipeline that assembles the artwork into an A3 PDF with jsPDF, stores it in Firebase Storage, sends an EmailJS notification, and redirects the customer into the publisher's checkout.
-
-`React` `TypeScript` `Vite` `Gemini API` `Firebase Storage` `jsPDF` `EmailJS`
-
----
-
-### Recruita — HR & Recruitment Platform &nbsp;`Final Year Project`
-> Employee-management platform with ML-powered CV ranking and candidate shortlisting.
-
-Automated leave, attendance, and payroll workflows and organizational-hierarchy modelling, cutting manual HR processing overhead. Integrated ML models for candidate CV ranking against job descriptions to automate first-stage screening, and built an in-app AI assistant for natural-language HR and candidate queries across the recruitment workflow.
-
-`Django` `Next.js` `Python` `Machine Learning`
-
----
-
-### Soulvia Networks — E-commerce & Direct Selling Platform
-> Full-stack cosmetics storefront with multi-level marketing (MLM) logic.
-
-Built a storefront integrated with MLM logic supporting hierarchical distributor management across multiple commission tiers. Automated commission calculations and referral tracking, reducing manual processing effort and surfacing real-time sales analytics through admin dashboards.
-
-`Django` `React.js` `PostgreSQL`
+**[AI Comic Book Platform](https://brainbook-verlag.de)** — Turns customer photos into a personalized 11-page comic for a German publishing house using Gemini image generation with a context-chaining strategy that keeps characters consistent across scenes.
+`React` `TypeScript` `Gemini API` `Firebase`
 
 ---
 
 ## Writing
 
-> Practical engineering guides from real projects, on [Medium](https://medium.com/@munirahmad9959) and [dev.to](https://dev.to/munirahmad9959).
+Practical engineering guides from real projects, on [Medium](https://medium.com/@munirahmad9959) and [dev.to](https://dev.to/munirahmad9959).
 
-| Article | Published |
-|---|---|
-| [Fix Microsoft 365 SMTP 535 5.7.3: Send Laravel Email with Microsoft Graph and Restrict It to One Mailbox](https://medium.com/@munirahmad9959/microsoft-365-smtp-535-5-7-3-microsoft-graph-3b3dc62001b5) | Oct 2026|
-| [Fastlane for Flutter: Complete Local Setup for iOS and Android Deployments](https://medium.com/@munirahmad9959/flutter-fastlane-local-setup-ios-android-ef38b9d3a87d) | Sep 2026 |
-| [Use Multiple GitHub Accounts on One Machine (SSH)](https://medium.com/@munirahmad9959/how-to-manage-multiple-github-accounts-on-one-machine-using-ssh-keys-3a8db5ae27e7) | Dec 2025 |
-| [Secure Swagger & ReDoc in Django REST Framework with DRF Spectacular](https://medium.com/@munirahmad9959/secure-swagger-redoc-in-django-rest-framework-with-drf-spectacular-best-practices-for-api-36da19824f9d) | Dec 2025 |
-| [Install the Latest PostgreSQL (psql 18) on Ubuntu 24.04](https://medium.com/@munirahmad9959/install-the-latest-postgresql-psql-18-on-ubuntu-24-04-noble-73ffb81e4dc2) | Nov 2025 |
+- [Fix Microsoft 365 SMTP 535 5.7.3: Send Laravel Email with Microsoft Graph](https://medium.com/@munirahmad9959/microsoft-365-smtp-535-5-7-3-microsoft-graph-3b3dc62001b5) — Oct 2026
+- [Fastlane for Flutter: Complete Local Setup for iOS and Android Deployments](https://medium.com/@munirahmad9959/flutter-fastlane-local-setup-ios-android-ef38b9d3a87d) — Sep 2026
+- [Secure Swagger & ReDoc in Django REST Framework with DRF Spectacular](https://medium.com/@munirahmad9959/secure-swagger-redoc-in-django-rest-framework-with-drf-spectacular-best-practices-for-api-36da19824f9d) — Dec 2025
+
+<p align="center">
+  <a href="https://medium.com/@munirahmad9959">
+    <img src="https://img.shields.io/badge/View%20all%20articles-Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="View all articles on Medium" />
+  </a>
+</p>
 
 ---
 
@@ -85,11 +73,9 @@ Built a storefront integrated with MLM logic supporting hierarchical distributor
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,php,js,ts,dart,cpp&theme=dark&perline=8" /><br/>
-    <img src="https://skillicons.dev/icons?i=laravel,django,fastapi,nodejs,express,dotnet,wordpress&theme=dark&perline=8" /><br/>
-    <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,redux,tailwind,html,css&theme=dark&perline=8" /><br/>
-    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,redis&theme=dark&perline=8" /><br/>
-    <img src="https://skillicons.dev/icons?i=aws,nginx,githubactions,docker,git,linux,figma&theme=dark&perline=8" />
+    <img src="https://skillicons.dev/icons?i=python,php,js,ts,dart,cpp,postgres,mysql,redis,firebase&theme=dark&perline=10" /><br/>
+    <img src="https://skillicons.dev/icons?i=laravel,django,fastapi,react,nextjs,flutter,wordpress,tailwind,nodejs,dotnet&theme=dark&perline=10" /><br/>
+    <img src="https://skillicons.dev/icons?i=aws,nginx,docker,githubactions,git,linux,figma&theme=dark&perline=10" />
   </a>
 </p>
 
@@ -98,24 +84,15 @@ Built a storefront integrated with MLM logic supporting hierarchical distributor
 ## Stats
 
 <div align="center">
-  <img width="390" src="https://streak-stats.demolab.com/?user=munirahmad9959&count_private=true&theme=react&border_radius=10" alt="GitHub Streak" />
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=munirahmad9959&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
-  <br/>
-  <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munirahmad9959&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <br/>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/munirahmad9959/munirahmad9959/output/github-contribution-grid-snake.svg" />
+  <img width="400" src="https://github-readme-stats.vercel.app/api?username=munirahmad9959&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
+  <img width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munirahmad9959&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10" alt="Top Languages" />
 </div>
 
 ---
 
 ## Certifications
 
-- **IBM AI Engineering** — Coursera / IBM
-- **IBM Generative AI Engineering** — Coursera / IBM
-- **IBM Full Stack Software Developer** — Coursera / IBM
+**IBM AI Engineering** · **IBM Generative AI Engineering** · **IBM Full Stack Software Developer** — Coursera / IBM
 
 ---
 
