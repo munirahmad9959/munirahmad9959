@@ -20,7 +20,6 @@ Software engineer shipping production systems across Laravel, Django, React and 
 
 - 🟢 **Software Engineer** at Innovaxel Private Limited
 - 🔨 Building the backend for **Necesito Un**, a bilingual (EN/ES) skilled-professional marketplace — Laravel 11, PostgreSQL/PostGIS, Filament. Next: Reverb in-app chat and FCM push.
-- 🤝 Working on [`--staged` mode](https://github.com/DhanushNehru/agentcheck/issues/8) for **agentcheck** (pre-commit scanning)
 
 ---
 
@@ -30,7 +29,7 @@ Software engineer shipping production systems across Laravel, Django, React and 
 `Python` `FastAPI` `OCR` `ONNX` `uv`
 
 **[agentcheck](https://github.com/DhanushNehru/agentcheck)** — Contributor. Scanner that finds hidden prompt-injection attacks in AI coding-agent config files (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules`, MCP configs).
-Merged: [#12 `--diff <ref>`](https://github.com/DhanushNehru/agentcheck/pull/12) scans only changed agent config files · In progress: [#8 `--staged`](https://github.com/DhanushNehru/agentcheck/issues/8)
+Merged: [#12 `--diff <ref>`](https://github.com/DhanushNehru/agentcheck/pull/12) scans only changed agent config files · [#13 `--staged`](https://github.com/DhanushNehru/agentcheck/pull/13) scans only git-staged files, for pre-commit use
 `Node.js` `CLI` `Security`
 
 ---
